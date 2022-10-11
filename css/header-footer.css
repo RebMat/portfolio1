@@ -32,7 +32,6 @@ header {
 }
 
 .nav-link {
-  /* transition: 0.7s ease; */
   margin-top: 30px;
   text-transform: lowercase;
   font-size: 23px;
@@ -89,17 +88,6 @@ header {
     z-index: 101;
   }
 
-  /* .navbar {
-    margin-top: 40px;
-  } */
-
-  /* .nav-link {
-    font-family: input-mono-compressed, monospace;
-    font-weight: 800;
-    font-style: normal;
-    color: #fbf4ff;
-  } */
-
   .nav-menu {
     position: fixed;
     right: -100%;
@@ -122,6 +110,5 @@ header {
 
   .nav-menu.active {
     right: 0;
-    /* background-color: #518a62; */
   }
 }
