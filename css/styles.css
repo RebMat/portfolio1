@@ -1,5 +1,7 @@
 @import url(header-footer.css);
 
+/* Global */
+
 * {
   padding: 0;
   margin: 0;
@@ -9,10 +11,24 @@
 body {
   display: grid;
   grid-template-areas:
-    "nav"
+    "header"
     "main"
     "footer";
   background-color: #fbf4ff;
+}
+
+main {
+  background-image: url(../images/oooscillate4.svg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 100%;
+  background-position: center;
+  z-index: 99;
+}
+
+.scroll-page {
+  height: 100vh;
 }
 
 a {
@@ -35,6 +51,7 @@ h4 {
   font-weight: 800;
   font-style: italic;
   color: #518a62;
+  /* margin-top: 100px; */
 }
 
 p {
@@ -42,4 +59,37 @@ p {
   font-weight: 800;
   font-style: normal;
   color: #518a62;
+}
+
+/* Home page */
+
+#page-home {
+  /* min-height: 500px; */
+  display: grid;
+  grid-template-rows: auto 170px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 150px;
+  opacity: 0.3;
+  grid-area: 2/1;
+  align-self: end;
+  margin-left: 60px;
+}
+
+.homepage-paragraphs {
+  grid-area: 1/1;
+  align-self: end;
+  margin-left: 82px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: unset;
+  }
 }
