@@ -49,7 +49,8 @@ ul {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: timonium, sans-serif;
   font-weight: 800;
   font-style: italic;
@@ -58,8 +59,11 @@ h4 {
 
 h2,
 h3,
-h4 {
+h4,
+h5 {
   text-transform: lowercase;
+  font-size: 50px;
+  padding-top: 30px;
 }
 
 p {
@@ -128,8 +132,6 @@ h2 {
   grid-area: 1/1;
   align-self: end;
   margin: auto;
-  font-size: 50px;
-  padding-top: 25px;
 }
 
 .project-container {
@@ -143,8 +145,9 @@ h2 {
   flex-direction: column;
   width: 235px;
   height: 300px;
-  background: #ece7ef;
+  background: #fff;
   transition: transform 0.2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .projects:hover {
@@ -164,7 +167,10 @@ h2 {
 
 .project-text {
   padding: 10px;
-  font-weight: 400;
+  font-family: forma-djr-text, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
 }
 
 .projects-icons {
@@ -178,7 +184,55 @@ h2 {
 }
 
 .project-icon:hover {
-  filter: invert(100%) sepia(98%) saturate(0%) hue-rotate(20deg) brightness(100%) contrast(103%);
+  filter: invert(65%) sepia(7%) saturate(23%) hue-rotate(314deg) brightness(99%) contrast(90%);
+}
+
+/* About */
+
+#page-about {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: auto 550px;
+}
+
+h3 {
+  grid-column: 1/3;
+  align-self: end;
+  margin: auto;
+}
+
+.pic-rebecca {
+  max-width: 350px;
+  grid-column: 2;
+  grid-row: 2/4;
+  margin: 0 auto;
+}
+
+.about-text {
+  grid-area: 2/1;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.language-tools-heading {
+  grid-area: 3/1;
+  font-size: 23px;
+}
+
+/* Contact */
+
+#page-contact {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+h5 {
+  justify-self: center;
+  align-self: center;
+}
+
+.footer-icon {
+  max-height: 40px;
 }
 
 /* Responsive */
