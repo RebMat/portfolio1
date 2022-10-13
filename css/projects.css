@@ -1,0 +1,64 @@
+/* Projects */
+
+#page-projects {
+  display: grid;
+}
+
+h2 {
+  grid-area: 1/1;
+  align-self: end;
+  margin: auto;
+}
+
+.project-container {
+  display: flex;
+  width: 99vw;
+  justify-content: space-evenly;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  width: 235px;
+  height: 300px;
+  background: #fff;
+  transition: transform 0.2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projects:hover {
+  transform: scale(1.1);
+  animation: up-bump 0.4s ease;
+}
+
+.project-img {
+  width: 100%;
+  height: 138px;
+}
+
+.project-heading {
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.project-text {
+  padding: 10px;
+  font-family: forma-djr-text, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.projects-icons {
+  align-self: center;
+}
+
+.project-icon {
+  height: 35px;
+  filter: invert(48%) sepia(31%) saturate(498%) hue-rotate(85deg) brightness(94%) contrast(89%);
+  margin: 10px;
+}
+
+.project-icon:hover {
+  filter: invert(65%) sepia(7%) saturate(23%) hue-rotate(314deg) brightness(99%) contrast(90%);
+}

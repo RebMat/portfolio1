@@ -1,0 +1,38 @@
+/* Contact */
+
+#page-contact {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+h5 {
+  grid-area: 1/1;
+  justify-self: center;
+  align-self: center;
+}
+
+.footer-icon {
+  filter: invert(48%) sepia(31%) saturate(498%) hue-rotate(85deg) brightness(94%) contrast(89%);
+}
+
+#page-contact p {
+  justify-self: center;
+  align-self: center;
+  font-size: 23px;
+  grid-area: 2/1;
+}
+
+.footer-icons {
+  align-self: center;
+  grid-area: 3/1;
+  justify-self: center;
+}
+
+.footer-icon {
+  height: 45px;
+  margin: 10px;
+}
+
+.footer-icon:hover {
+  filter: invert(65%) sepia(7%) saturate(23%) hue-rotate(314deg) brightness(99%) contrast(90%);
+}

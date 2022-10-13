@@ -1,0 +1,31 @@
+/* About */
+
+#page-about {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: auto 550px;
+}
+
+h3 {
+  grid-column: 1/3;
+  align-self: end;
+  margin: auto;
+}
+
+.pic-rebecca {
+  max-width: 350px;
+  grid-column: 2;
+  grid-row: 2/4;
+  margin: 0 auto;
+}
+
+.about-text {
+  grid-area: 2/1;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.language-tools-heading {
+  grid-area: 3/1;
+  font-size: 23px;
+}
