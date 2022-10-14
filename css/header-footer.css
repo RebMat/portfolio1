@@ -110,4 +110,14 @@ footer p {
   .nav-menu.active {
     right: 0;
   }
+
+  .nav-branding a {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar {
+    padding: 30px 40px 0px 40px;
+  }
 }

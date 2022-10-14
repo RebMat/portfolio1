@@ -85,4 +85,10 @@ p {
     background-size: cover;
     background-position: unset;
   }
+
+  h2,
+  h3,
+  h5 {
+    font-size: 40px;
+  }
 }
