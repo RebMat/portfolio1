@@ -39,7 +39,7 @@ h5 {
 
 @media (max-width: 768px) {
   #page-contact {
-    grid-template-rows: 150px 400px 150px;
+    grid-template-rows: 150px 300px 200px;
   }
 
   #page-contact p {
