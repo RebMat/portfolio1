@@ -101,3 +101,9 @@ p {
     height: unset;
   }
 }
+
+@media (hover: none) {
+  main {
+    background-attachment: initial;
+  }
+}
