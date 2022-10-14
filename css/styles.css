@@ -35,7 +35,7 @@ main {
 }
 
 .scroll-page-home {
-  height: 89vh;
+  height: 100vh;
 }
 
 a {
@@ -86,9 +86,17 @@ p {
     background-position: unset;
   }
 
+  .scroll-page {
+    height: unset;
+  }
+
   h2,
   h3,
   h5 {
     font-size: 40px;
+  }
+
+  .scroll-page-home {
+    height: unset;
   }
 }

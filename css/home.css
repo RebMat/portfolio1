@@ -58,10 +58,12 @@ h1 {
   h1 {
     font-size: 70px;
     margin-left: 30px;
+    grid-area: 2/1;
   }
 
   .homepage-paragraphs {
     margin-left: 35px;
+    grid-area: 1/1;
   }
 
   .typed-out1,
@@ -70,7 +72,7 @@ h1 {
   }
 
   #page-home {
-    grid-template-rows: auto 80px;
+    grid-template-rows: 80vh 10vh;
   }
 }
 
@@ -79,9 +81,9 @@ h1 {
     font-size: 45px;
   }
 
-  #page-home {
+  /* #page-home {
     grid-template-rows: auto 60px;
-  }
+  } */
 
   .typed-out1,
   .typed-out2 {

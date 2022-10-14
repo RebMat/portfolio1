@@ -1,7 +1,12 @@
-header {
+/* header {
   min-height: 107px;
   z-index: 100;
-}
+} */
+/* .space {
+  display: flex;
+  height: 107px;
+  z-index: 99;
+} */
 
 .navbar {
   display: flex;
@@ -12,6 +17,8 @@ header {
   width: 100%;
   background-color: #fbf4ff;
   padding-top: 35px;
+  min-height: 107px;
+  z-index: 100;
 }
 
 .nav-menu {

@@ -36,3 +36,13 @@ h5 {
 .footer-icon:hover {
   filter: invert(65%) sepia(7%) saturate(23%) hue-rotate(314deg) brightness(99%) contrast(90%);
 }
+
+@media (max-width: 768px) {
+  #page-contact {
+    grid-template-rows: 150px 400px 150px;
+  }
+
+  #page-contact p {
+    font-size: 20px;
+  }
+}
