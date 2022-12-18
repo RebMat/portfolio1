@@ -63,6 +63,7 @@ h1 {
 
   .homepage-paragraphs {
     margin-left: 35px;
+    margin-bottom: 15px;
     grid-area: 1/1;
   }
 
@@ -79,11 +80,17 @@ h1 {
 @media (max-width: 450px) {
   h1 {
     font-size: 45px;
+    margin-left: 20px;
   }
 
-  /* #page-home {
-    grid-template-rows: auto 60px;
-  } */
+  .homepage-paragraphs {
+    margin-left: 25px;
+    margin-bottom: unset;
+  }
+
+  .navbar {
+    padding: 30px 40px 0px 30px;
+  }
 
   .typed-out1,
   .typed-out2 {

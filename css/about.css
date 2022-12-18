@@ -2,7 +2,7 @@
 
 #page-about {
   display: grid;
-  grid-template-rows: 250px auto;
+  /* grid-template-rows: 250px auto; */
   grid-template-columns: auto 500px;
 }
 
@@ -36,7 +36,7 @@ h3 {
 
 @media (max-width: 1100px) {
   #page-about {
-    grid-template-rows: 110px auto auto auto;
+    /* grid-template-rows: 110px auto auto auto; */
     grid-template-columns: 1fr;
   }
 
@@ -65,17 +65,17 @@ h3 {
     /* max-width: 300px; */
   }
 
-  .language-tools-text {
+  /* .language-tools-text {
     float: left;
     padding: 10px;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
-  .language-tools-text {
+  /* .language-tools-text {
     float: unset;
     padding: unset;
-  }
+  } */
 
   .about-section {
     padding: 15px;
